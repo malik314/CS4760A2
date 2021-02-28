@@ -10,14 +10,12 @@ Partition the n integers into n/2 pairs. Use n/2 processes to add each pair of i
 Repeat the method on the n/2 integers and continue until the final result is obtained. (This is a binary tree
 algorithm.)
 
-
 ## INVOKE
-
-master should take in several command line options as follows:
-./master -h
-./master [-h] [-s i] [-t time] datafile
--h Describe how the project should be run and then, terminate.
--s x Indicate the number of children allowed to exist in the system at the same time. (Default 20)
--t time The time in seconds after which the process will terminate, even if it has not finished. (Default 100)
-datafile Input file containing one integer on each line.
+master should take in several command line options as follows:  
+./master -h  
+./master [-h] [-s i] [-t time] datafile  
+-h Describe how the project should be run and then, terminate       
+-s x Indicate the number of children allowed to exist in the system at the same time. (Default 20)  
+-t time The time in seconds after which the process will terminate, even if it has not finished. (Default 100)  
+datafile Input file containing one integer on each line.  
 
